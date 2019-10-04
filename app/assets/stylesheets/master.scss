@@ -11,7 +11,7 @@
   font-style: italic;
   position: relative;
   border-radius: 100%;
-  background: #0080ff;
+  background: #718ab6;
   border: 1px solid #F7F7F7;
   width: 80px;
   height: 80px;
@@ -39,7 +39,7 @@
 
 .links a {
   font-family: 'architects_daughterregular';
-  color: #dfdfdf;
+  color: #718ab6;
   font-size: 22px;
   font-weight: bold
 }
@@ -61,3 +61,16 @@ h1 {
 h2 {
  font-family: 'architects_daughterregular';
 }
+
+.next-quote {
+  font-family: 'architects_daughterregular';
+  font-size: 18px;
+  color: #718ab6
+  }
+
+  .footer-blurb {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-size: 10px;
+  font-style: italic;
+  text-align: right;
+  }

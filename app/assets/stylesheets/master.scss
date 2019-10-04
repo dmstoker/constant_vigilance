@@ -1,3 +1,5 @@
+
+
 @import "bootstrap";
 
 .clear {
@@ -36,8 +38,10 @@
 }
 
 .links a {
+  font-family: 'architects_daughterregular';
   color: #dfdfdf;
   font-size: 22px;
+  font-weight: bold
 }
 
 header {
@@ -46,4 +50,14 @@ header {
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'architects_daughterregular';
+  font-weight: bold;
+  font-size: 48px;
+ 
+}
+h2 {
+ font-family: 'architects_daughterregular';
 }

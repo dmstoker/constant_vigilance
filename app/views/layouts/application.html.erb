@@ -48,7 +48,7 @@
           </div>
          <%= simple_form_for Quote.new do |f| %>
         <div class="modal-body">
-           <%= f.input :saying, label: "What is your favioirte T.V. quote?", placeholder: "I love games that turn people against eachother" %>
+           <%= f.input :saying, label: "What is your favioirte T.V. quote?", placeholder: '"I love games that turn people against eachother."' %>
            <br />
           <%= f.input :author, label: "Who said it?", placeholder: "April Ludgate" %>
         
@@ -70,8 +70,13 @@
     <br class="clear" />
     
     <div class="container">
-    <%= yield %>
-    </div>
+      <% if flash[:error].present? %>
+      <div class="col-10 offset-1 alert alert-danger">
+      <%= flash[:error].html_safe %>
+      </div>
+      <% end %>
+      <%= yield %>
+      </div>
 
     <div class="footer">
       <div class="container">

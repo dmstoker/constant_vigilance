@@ -49,7 +49,8 @@ header {
 }
 
 hr {
-  clear:both;
+border-top: 6px solid grey;
+
 }
 
 h1 {
@@ -76,6 +77,9 @@ h2 {
 
   }
 
+  .footer-blurb blue{
+  color: #718ab6;}
+
   .logo:hover {
   text-decoration: none;
 }
@@ -97,3 +101,27 @@ font-style: italic;
 font-size: 16px;
 font-style: italic;
 }
+
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+  .links a{
+  text-align: center;
+  }
+}
+
+h2 span {
+  color: #6C869F;
+  font-family: 'architects_daughterregular';
+  font-weight: bold;
+  font-size: 30px;
+}
+ h3 tag {
+  color: #6C869F;
+  font-family: 'architects_daughterregular';
+  font-style: italic;
+  font-size: 20px;
+
+ }

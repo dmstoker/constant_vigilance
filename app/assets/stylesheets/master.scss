@@ -64,9 +64,11 @@ h2 {
 }
 
 .next-quote {
+  text-align: right;
   font-family: 'architects_daughterregular';
   font-size: 18px;
   color: #718ab6
+
   }
 
   .footer-blurb {
@@ -123,5 +125,12 @@ h2 span {
   font-family: 'architects_daughterregular';
   font-style: italic;
   font-size: 20px;
+
+ }
+
+ h3 show {
+ font-family: 'architects_daughterregular';
+  font-style: italic;
+  
 
  }
